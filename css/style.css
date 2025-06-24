@@ -5,6 +5,7 @@
     --primary-color: #246EF0;
     --primary-color-dark: #133B80;
     --light-gray: #888;
+    --green: #6d9b01;
 }
 
 @font-face {
@@ -103,8 +104,8 @@ main {
     color: var(--light-gray);
 }
 
-#search-panel h3 {
-    color: #7AAB07;
+#search-panel label {
+    color: var(--green);
 }
 
 input {
